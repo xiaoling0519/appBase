@@ -1,0 +1,67 @@
+/* 页面左右间距 */
+$page-row-spacing: 30rpx;
+//页面基础颜色
+$page-color-base: #f8f8f8;//页面背景颜色
+$page-color-light: #f8f6fc;
+// 主题颜色
+$base-color: #5dbc7c;//项目颜色
+$box-shadow-color:#5dbc7c;//阴影颜色
+$font-color:#5dbc7c;//字体颜色
+$font-color-spec: #5dbc7c;//可操作文字颜色
+$background-color:#5dbc7c;//按钮背景颜色
+// 小图标大小
+$uni-img-size-base:36rpx;
+/* 文字尺寸 */
+$font-sm: 24rpx;
+$font-base: 28rpx;
+$font-lg: 32rpx;
+/*文字颜色*/
+$font-color-dark: #303133;//黑
+$font-color-base: #606266;//基础
+$font-color-light: #909399;//灰色
+$font-color-disabled: #c0c4cc;//禁用
+/* 边框颜色 */
+$border-color-dark: #dcdfe6;//黑
+$border-color-base: #e4e7ed;//基础灰
+$border-color-light: #ebeef5;//亮灰
+// uni自带边框颜色
+$uni-border-color:#ebeef5;
+/*颜色*/
+$color-yellow: #fd5b23;
+$color-gray: #999999;
+$color-green: #5dbc7c;
+$color-red: #dd524d;
+/* 图片加载中颜色 */
+$image-bg-color: #eee;
+/* 行为相关颜色 */
+$uni-color-primary: #dd524d;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+// 提交框阴影
+$box-shadow: 0rpx 0rpx 10rpx 10rpx #f3f3f3;
+// 圆角
+$border-radius-sm: 15rpx;
+// 渐变背景颜色
+$bg-green-gradual: linear-gradient(#5dbc7c, #71d094);
+/* 功能栏字体大小 */
+%font-title {
+	font-size: $font-lg + 2rpx;
+	color: $font-color-dark;
+	line-height: 1;
+	font-weight: bold;
+}
+// 功能栏字体包裹框
+%font-title-box {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+/*功能栏左侧小图标*/
+%f-left-icon {
+	height: $font-lg + 2rpx;
+	width: 8rpx;
+	background-image: $bg-green-gradual;
+	margin-right: 10rpx;
+	border-radius: 10rpx;
+}

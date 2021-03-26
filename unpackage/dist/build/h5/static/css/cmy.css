@@ -1,0 +1,432 @@
+/*初始化类*/
+@font-face {
+	font-family: 'iconfont';
+	/* project id 1482221 */
+	src: url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.eot');
+	src: url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.eot?#iefix') format('embedded-opentype'),
+		url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.woff2') format('woff2'),
+		url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.woff') format('woff'),
+		url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.ttf') format('truetype'),
+		url('https://at.alicdn.com/t/font_1482221_x9emymthrxs.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 34rpx;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0rpx;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconedit:before {
+	content: "\e649";
+}
+
+.iconfavorfill:before {
+	content: "\e64b";
+}
+
+.iconfavor:before {
+	content: "\e64c";
+}
+
+.iconlocation:before {
+	content: "\e651";
+}
+
+.iconroundcheckfill:before {
+	content: "\e656";
+}
+
+.iconroundcheck:before {
+	content: "\e657";
+}
+
+.iconunfold:before {
+	content: "\e661";
+}
+
+.iconlikefill:before {
+	content: "\e668";
+}
+
+.iconlike:before {
+	content: "\e669";
+}
+
+.iconshop:before {
+	content: "\e676";
+}
+
+.iconcart:before {
+	content: "\e6af";
+}
+
+.icondelete:before {
+	content: "\e6b4";
+}
+
+.iconhome:before {
+	content: "\e6b8";
+}
+
+.iconcartfill:before {
+	content: "\e6b9";
+}
+
+.iconhomefill:before {
+	content: "\e6bb";
+}
+
+.iconlock:before {
+	content: "\e6c0";
+}
+
+.iconfriendadd:before {
+	content: "\e6ca";
+}
+
+.iconfold:before {
+	content: "\e6de";
+}
+
+.iconapps:before {
+	content: "\e729";
+}
+
+.iconadd:before {
+	content: "\e767";
+}
+
+.iconmove:before {
+	content: "\e768";
+}
+
+.icontriangledownfill:before {
+	content: "\e79b";
+}
+
+.icontriangleupfill:before {
+	content: "\e79c";
+}
+
+.iconshaixuan:before {
+	content: "\e74a";
+}
+
+.iconyanzhengma:before {
+	content: "\e684";
+}
+
+.iconjifen:before {
+	content: "\e60f";
+}
+
+.iconwuliuxinxi:before {
+	content: "\e62b";
+}
+
+.iconmessage:before {
+	content: "\e78a";
+}
+
+.iconsetting:before {
+	content: "\e78e";
+}
+
+.iconaddition:before {
+	content: "\e6e0";
+}
+
+.iconclose:before {
+	content: "\e6e9";
+}
+
+.iconenter:after {
+	content: "\e6f8";
+}
+
+.iconprompt:before {
+	content: "\e71b";
+}
+
+.iconreturn:before {
+	content: "\e720";
+}
+
+.iconsearch:before {
+	content: "\e741";
+}
+
+.iconpengyouquan:before {
+	content: "\e62c";
+}
+
+.iconweixin:before {
+	content: "\e60e";
+}
+
+.iconzhifubao:before {
+	content: "\e673";
+}
+
+.iconyue:before {
+	content: "\e618";
+}
+
+.iconweixin1:before {
+	content: "\e622";
+}
+
+.iconlock1:before {
+	content: "\e64d";
+}
+
+.iconuser:before {
+	content: "\e64e";
+}
+
+.iconchenggongtixianshouyi:before {
+	content: "\e64f";
+}
+
+.iconviptuiguangdingdan:before {
+	content: "\e650";
+}
+
+.icondaifukuan:before {
+	content: "\e652";
+}
+
+.icondaijiesuanshouyi:before {
+	content: "\e653";
+}
+
+.icondaidakuanshouyi:before {
+	content: "\e654";
+}
+
+.icondaifahuo:before {
+	content: "\e655";
+}
+
+.icondaishouhuoshouyi:before {
+	content: "\e658";
+}
+
+.icondaishouhuo:before {
+	content: "\e659";
+}
+
+.iconwuxiaoshouyi:before {
+	content: "\e65a";
+}
+
+.icontixianmingxi:before {
+	content: "\e65b";
+}
+
+.iconshouyi:before {
+	content: "\e65c";
+}
+
+.iconkouchutixianshouxufei:before {
+	content: "\e65d";
+}
+
+.iconyishenqingshouyi:before {
+	content: "\e65e";
+}
+
+.icontuihuanhuo:before {
+	content: "\e65f";
+}
+
+
+/*水平线*/
+.hr {
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #dddddd;
+	/* height: 0.5rpx; */
+}
+
+/* 一行显示 */
+.clamp {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+
+.common-hover {
+	background: #f5f5f5;
+}
+
+/* 角标 */
+.corner{
+	background-color:#e51c23;
+	position: absolute;
+	right: -18rpx;
+	top: -18rpx;
+	color:#FFFFFF;
+	text-align: center;
+	border-radius: 999px;
+	font-size: 24rpx !important;
+	min-width: 35rpx;
+	min-height: 35rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+}
+/*文字对齐*/
+.text-left {
+	text-align: left !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-justify {
+	text-align: justify !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-default {
+	color: #212121 !important;
+}
+
+.text-white {
+	color: #ffffff !important;
+}
+
+.text-primary {
+	color: #00bcd4 !important;
+}
+
+.text-success {
+	color: #009688 !important;
+}
+
+.text-info {
+	color: #03a9f4 !important;
+}
+
+.text-warning {
+	color: #ffc107 !important;
+}
+
+.text-danger {
+	color: #e51c23 !important;
+}
+
+.text-pink {
+	color: #e91e63 !important;
+}
+
+.text-purple {
+	color: #673ab7 !important;
+}
+
+.text-indigo {
+	color: #3f51b5 !important;
+}
+
+.text-gray {
+	color: #999999 !important;
+}
+
+.bg-default {
+	background-color: #f5f5f5 !important;
+}
+
+.bg-primary {
+	background-color: #00bcd4 !important;
+}
+
+.bg-success {
+	background-color: #009688 !important;
+}
+
+.bg-info {
+	background-color: #03a9f4 !important;
+}
+
+.bg-warning {
+	background-color: #FFB238 !important;
+}
+
+.bg-danger {
+	background-color: #DC4D46 !important;
+}
+
+.bg-pink {
+	background-color: #e91e63 !important;
+}
+
+.bg-purple {
+	background-color: #673ab7 !important;
+}
+
+.bg-indigo {
+	background-color: #3f51b5 !important;
+}
+
+.bg-white {
+	background-color: white !important;
+}
+
+.bg-gray {
+	background-color: #e3e3e3 !important;
+}
+
+/* 边框 */
+.border-radius-15 {
+	border-radius: 15rpx;
+}
+
+.border-radius-10 {
+	border-radius: 10rpx;
+}
+
+.border-radius-all {
+	border-radius: 1000rpx;
+}
+
+/* 底部边线 */
+.borde-b {
+	border-bottom: 1px solid #dddddd;
+}
+
+/* 弹性盒子 */
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.items-left {
+	justify-content: flex-start;
+}
+
+.items-right {
+	justify-content: flex-end;
+}
+
+.flex-shrink-false {
+	flex-shrink: 0;
+}
+
+.flex-grow-true {
+	flex-grow: 1;
+}
+
+.position-relative {
+	position: relative;
+}
